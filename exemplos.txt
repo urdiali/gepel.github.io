@@ -1,0 +1,178 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagens/LogoGEPEL.jpeg" alt="" width="80" height="80" class="d-inline-block align-text-top"></img>
+            </a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Home</a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Orixás</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pontos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Defumação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Banhos</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      ----------------------------------------------------------------------------------------------------------------------
+      <!--<nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="imagens/LogoGEPEL.jpeg" alt="" width="80" height="80" class="d-inline-block align-text-top"></img>
+                GEPEL
+            </a>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>-->
+
+    <!--<section id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="accordio" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Banhos
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="pages/banhos/defesa.html"> Defesa </a></li>
+                                        <li><a href="pages/banhos/descarrego.html"> Descarrego </a></li>
+                                        <li><a href="pages/banhos/saude.html"> Saúde </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Defumação
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="pages/defumacao/defesa.html"> Defesa </a></li>
+                                        <li><a href="pages/defumacao/descarrego.html"> Descarrego </a></li>
+                                        <li><a href="pages/defumacao/saude.html"> Saúde </a></li>
+                                    </ul>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Orixás
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="pages/orixas/oxala.html"> Oxalá </a></li>
+                                        <li><a href="pages/orixas/ogum.html"> Ogum </a></li>
+                                        <li><a href="pages/orixas/oxossi.html"> Oxossi </a></li>
+                                        <li><a href="pages/orixas/xango.html"> Xango </a></li>
+                                        <li><a href="pages/orixas/obaluae.html"> Obaluae </a></li>
+                                        <li><a href="pages/orixas/oxum.html"> Oxum </a></li>
+                                        <li><a href="pages/orixas/iemanja.html"> Iemanja </a></li>
+                                        <li><a href="pages/orixas/nana.html"> Nanã </a></li>
+                                        <li><a href="pages/orixas/iansa.html"> Iansã </a></li>
+                                        <li><a href="pages/orixas/ibeji.html"> Ibeji </a></li>
+                                        <li><a href="pages/orixas/preto_velho.html"> Preto Velho </a></li>
+                                        <li><a href="pages/orixas/baiano.html"> Baiano </a></li>
+                                        <li><a href="pages/orixas/boiadeiro.html"> Boiadeiro </a></li>
+                                        <li><a href="pages/orixas/cigano.html"> Cigano </a></li>
+                                        <li><a href="pages/orixas/ze_pilintra.html"> Zé Pilintra </a></li>
+                                        <li><a href="pages/orixas/marinheiro.html"> Marinheiro </a></li>
+                                        <li><a href="pages/orixas/exu_mirim.html"> Exú Mirim </a></li>
+                                        <li><a href="pages/orixas/pomba_gira.html"> Pomba Gira </a></li>
+                                        <li><a href="pages/orixas/exu.html"> Exú </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Pontos
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><a href="pages/pontos/defumacao.html"> Defumação </a></li>
+                                        <li><a href="pages/pontos/bate_cabeca.html"> Bate Cabeça </a></li>
+                                        <li><a href="pages/pontos/abertura.html"> Abertura </a></li>
+                                        <li><a href="pages/pontos/oxala.html"> Oxalá </a></li>
+                                        <li><a href="pages/pontos/ogum.html"> Ogum </a></li>
+                                        <li><a href="pages/pontos/oxossi.html"> Oxossi </a></li>
+                                        <li><a href="pages/pontos/xango.html"> Xango </a></li>
+                                        <li><a href="pages/pontos/obaluae.html"> Obaluae </a></li>
+                                        <li><a href="pages/pontos/oxum.html"> Oxum </a></li>
+                                        <li><a href="pages/pontos/iemanja.html"> Iemanja </a></li>
+                                        <li><a href="pages/pontos/nana.html"> Nanã </a></li>
+                                        <li><a href="pages/pontos/iansa.html"> Iansã </a></li>
+                                        <li><a href="pages/pontos/ibeji.html"> Ibeji </a></li>
+                                        <li><a href="pages/pontos/preto_velho.html"> Preto Velho </a></li>
+                                        <li><a href="pages/pontos/baiano.html"> Baiano </a></li>
+                                        <li><a href="pages/pontos/boiadeiro.html"> Boiadeiro </a></li>
+                                        <li><a href="pages/pontos/cigano.html"> Cigano </a></li>
+                                        <li><a href="pages/pontos/ze_pilintra.html"> Zé Pilintra </a></li>
+                                        <li><a href="pages/pontos/marinheiro.html"> Marinheiro </a></li>
+                                        <li><a href="pages/pontos/exu_mirim.html"> Exú Mirim </a></li>
+                                        <li><a href="pages/pontos/pomba_gira.html"> Pomba Gira </a></li>
+                                        <li><a href="pages/pontos/exu.html"> Exú </a></li>
+                                        <li><a href="pages/pontos/despedida.html"> Despedida </a></li>
+                                        <li><a href="pages/pontos/geral.html"> Geral </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    ------------------------------------------------------------------------
+    <div class="card">
+                <h5 class="card-header text-center"> Oi brilha uma estrela no céu</h5>
+                <div class="card-body">
+                    <p class="card-text text-center"> Tipo: Louvação </p>
+                    <p class="card-text text-center"> Toque: Angola </p>
+                    <a href="../pontos/oxala/oi_brilha_uma_estrela.html" class="btn btn-outline-primary w-100" style="text-align: center;">Ponto Completo</a>
+                  <!--<h5 class="card-title" style="text-align: center;"> Oi brilha uma estrela no céu </h5>
+                  <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+                  <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+                  <a class="nav-link active" aria-current="page" href="../pontos/oxala/oi_brilha_uma_estrela.html" style="text-align: center;">Ponto Completo</a>-->
+                  <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+                </div>
+            </div>
+
+    ---------------------
+    Exemplo calendário: <input type="date" id="data" name="date"> 

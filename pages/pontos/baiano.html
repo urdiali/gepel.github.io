@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEPEL</title>
+    <!--Importando bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../../css/orixas.css" rel="stylesheet">
+</head>
+
+<body id="menu">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../images/LogoGEPEL.jpeg" alt="" width="80" height="80"
+                    class="d-inline-block align-text-top"></img>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <a class="navbar-brand" href="../../index.html">Home</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../orixas/orixas.html">Orixás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pontos/pontos.html">Pontos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../defumacao/defumacao.html">Defumação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../banhos/banhos.html">Banhos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../calendario.html">Calendário</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+  <div class="text-center">
+    <div class="dropdown" style="text-align: center;">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Baiano
+        </button>
+
+        <div class="dropdown-menu">
+            <a href="../pontos/oxala.html" class="dropdown-item text-center"> Oxala </a>
+            <a href="../pontos/ogum.html" class="dropdown-item text-center"> Ogum </a>
+            <a href="../pontos/oxossi.html" class="dropdown-item text-center"> Oxossi </a>
+            <a href="../pontos/xango.html" class="dropdown-item text-center"> Xango </a>
+            <a href="../pontos/obaluae.html" class="dropdown-item text-center"> Obaluae </a>
+            <a href="../pontos/oxum.html" class="dropdown-item text-center"> Oxum </a>
+            <a href="../pontos/iemanja.html" class="dropdown-item text-center"> Iemanja </a>
+            <a href="../pontos/nana.html" class="dropdown-item text-center"> Nana </a>
+            <a href="../pontos/iansa.html" class="dropdown-item text-center"> Iansa </a>
+            <a href="../pontos/ibeji.html" class="dropdown-item text-center"> Ibeji </a>
+            <a href="../pontos/preto_velho.html" class="dropdown-item text-center"> Preto Velho </a>
+            <a href="../pontos/baiano.html" class="dropdown-item text-center"> Baiano </a>
+            <a href="../pontos/boiadeiro.html" class="dropdown-item text-center"> Boiadeiro </a>
+            <a href="../pontos/cigano.html" class="dropdown-item text-center"> Cigano </a>
+            <a href="../pontos/ze_pilintra.html" class="dropdown-item text-center"> Zé Pilintra </a>
+            <a href="../pontos/marinheiro.html" class="dropdown-item text-center"> Marinheiro </a>
+            <a href="../pontos/exu_mirim.html" class="dropdown-item text-center"> Exú Mirim </a>
+            <a href="../pontos/pomba_gira.html" class="dropdown-item text-center"> Pomba Gira </a>
+            <a href="../pontos/exu.html" class="dropdown-item text-center"> Exú </a>
+        </div>
+
+        <form style="text-align: center" autocomplete="on">
+          <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Pesquisar Ponto" style="text-align: center;">
+        </form>
+    </div>
+
+    <div>
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Baiano que vem da Bahia
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Ijexá</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/baiano_que_vem.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Na Bahia tem
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/na_bahia_tem.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Baiano bom
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Barra-vento</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/baiano_bom.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Peguei minha saia rendada
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/peguei_minha_saia_rendada.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Baiana saia rendada
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/baiana_saia_rendada.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Baiano é povo bom
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Congo</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/baiano_e_povo_bom.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Passei na porta da igreja
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/passei_na_porta.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Na Bahia tem uma igreja
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/na_bahia_tem_uma_igreja.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Bahia o África
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/bahia_o_africa.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Tava na estação
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/tava_na_estacao.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Ele é baiano velho
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Barra-vento</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/ele_baiano_velho.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Estaca comendo coco
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/estava_comendo_coco.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Se ele é baiano
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/se_ele_e_baiano.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Vamo baianada
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Barra-vento</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/vamos_baianada.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    É na Bahia de cima
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Barra-vento</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/e_na_bahia_de_cima.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Vem baiano lá do centro da Bahia
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/vem_baiano.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Você diz que sou macumbeiro
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/voce_diz_que_sou.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Quando a Baiana chegou da Bahia
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/quando_a_baiana_chegou.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Mas se o coqueiro é alto
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/mas_se_o_coqueiro.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Quando eu cheguei na Bahia
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/quando_eu_cheguei.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Baiano é mal
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/baiano_e_mal.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Balança porteira velha
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/balanca_porteira.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    A Bahia queimou
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Louvação</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/a_bahia_queimou.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Foi na Bahia que eu vi saia rodar
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Congo</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/foi_na_bahia.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Vem baiano lá do sertão da Bahia
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Chamada</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/vem_baiano_sertao.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    Baiano vai embora pra cidade alta
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Subida</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/baiano_vai_embora.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+                <h5 class="card-title" style="text-align: center;">
+                    O coqueiro da Bahia está balançando
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+                </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Subida</h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: Angola</h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/baiano/o_coqueiro_da_bahia.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="text-center">
+        <button id="button-top" type="button" class="btn btn-outline-dark">Voltar ao topo!</button>
+    </div>
+
+    <div>
+        <footer style="text-align: center">
+            <b> Rua Imperial, 212 - Vila Buenos Aires, São Paulo - SP, 03737-010 </b>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../../js/index.js"></script>
+
+</body>
+</html>

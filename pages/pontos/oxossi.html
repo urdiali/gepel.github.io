@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEPEL</title>
+    <!--Importando bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="../../css/orixas.css" rel="stylesheet">
+</head>
+
+<body id="menu">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../../images/LogoGEPEL.jpeg" alt="" width="80" height="80"
+                    class="d-inline-block align-text-top"></img>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <a class="navbar-brand" href="../../index.html">Home</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../orixas/orixas.html">Orixás</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pontos/pontos.html">Pontos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../defumacao/defumacao.html">Defumação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../banhos/banhos.html">Banhos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../calendario.html">Calendário</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+  </div>
+
+  <div class="text-center">
+    <div class="dropdown" style="text-align: center;">
+        <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+            Oxossi
+        </button>
+
+        <div class="dropdown-menu">
+            <a href="../pontos/oxala.html" class="dropdown-item text-center"> Oxala </a>
+            <a href="../pontos/ogum.html" class="dropdown-item text-center"> Ogum </a>
+            <a href="../pontos/oxossi.html" class="dropdown-item text-center"> Oxossi </a>
+            <a href="../pontos/xango.html" class="dropdown-item text-center"> Xango </a>
+            <a href="../pontos/obaluae.html" class="dropdown-item text-center"> Obaluae </a>
+            <a href="../pontos/oxum.html" class="dropdown-item text-center"> Oxum </a>
+            <a href="../pontos/iemanja.html" class="dropdown-item text-center"> Iemanja </a>
+            <a href="../pontos/nana.html" class="dropdown-item text-center"> Nana </a>
+            <a href="../pontos/iansa.html" class="dropdown-item text-center"> Iansa </a>
+            <a href="../pontos/ibeji.html" class="dropdown-item text-center"> Ibeji </a>
+            <a href="../pontos/preto_velho.html" class="dropdown-item text-center"> Preto Velho </a>
+            <a href="../pontos/baiano.html" class="dropdown-item text-center"> Baiano </a>
+            <a href="../pontos/boiadeiro.html" class="dropdown-item text-center"> Boiadeiro </a>
+            <a href="../pontos/cigano.html" class="dropdown-item text-center"> Cigano </a>
+            <a href="../pontos/ze_pilintra.html" class="dropdown-item text-center"> Zé Pilintra </a>
+            <a href="../pontos/marinheiro.html" class="dropdown-item text-center"> Marinheiro </a>
+            <a href="../pontos/exu_mirim.html" class="dropdown-item text-center"> Exú Mirim </a>
+            <a href="../pontos/pomba_gira.html" class="dropdown-item text-center"> Pomba Gira </a>
+            <a href="../pontos/exu.html" class="dropdown-item text-center"> Exú </a>
+        </div>
+
+        <form style="text-align: center" autocomplete="on">
+          <input id="searchbar" onkeyup="search_animal()" type="text" name="search" placeholder="Pesquisar Ponto" style="text-align: center;">
+        </form>
+    </div>
+
+    <div>
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Ainda tem Caboclo
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/ainda_tem_caboclo.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Saudade de Pena Branca
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/saudade_pena_branca.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Caboclo que se escreve na areia
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/caboclo_que_se_escreve.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Jassira Cabocla de pena
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/jassira_cabocla_de_pena.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Arreia Caboclo
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/arreia_caboclo.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Jurema
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/jurema.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Foi numa noite serena
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/foi_numa_noite.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Oxalá mandou
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/oxala_mandou.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Caboclo sete flechas
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/caboclo_sete_flechas.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+    
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Como é bonita a pisada do Caboclo
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/como_e_bonita_a_pisada.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                As matas estavam enfeitadas
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/matas_estavam_enfeitadas.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Na beira da mata eu pedi
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/na_beira_da_mata.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Estava na beira do rio
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/estava_na_beira_do_rio.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Jurema preta
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/jurema_preta.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Boca da mata
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/boca_da_mata.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Se a coral é sua cinta
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/se_a_coral_e_sua_cinta.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Nas matas de Oxossi
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/nas_matas_de_oxossi.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Eu vi chover
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/eu_vi_chover.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+    
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Pisa Caboclo
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/pisa_caboclo.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                O vento está girando nas matas
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/o_vento_esta_girando.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Jurema táta de Umbanda
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/jurema_tata_umbanda.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Ele atirou
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/ele_atirou.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Caboclo roxo
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/caboclo_roxo.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Caboclo não tem caminho para caminhar
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/caboclo_nao_tem_caminho.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+            <div class="card-body" name="ponto">
+              <h5 class="card-title" style="text-align: center;">
+                Cacador na beira do caminho
+                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+              </h5>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+              <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+              <a class="nav-link active" aria-current="page" href="../pontos/oxossi/cacador_na_beira.html" style="text-align: center;">Ponto Completo</a>
+              <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+            </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Caboclo que é batizado
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/caboclo_que_e_batizado.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Quem é o cavaleiro
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/quem_e_o_cavaleiro.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Caboclo pegue a sua flecha
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Subida </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/caboclo_pegue_sua_flecha.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+
+        <div class="card" style="left: 0px;">
+          <div class="card-body" name="ponto">
+            <h5 class="card-title" style="text-align: center;">
+              Caboclo vai
+              <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="opcao1" aria-label="...">
+            </h5>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Tipo: Subida </h6>
+            <h6 class="card-subtitle mb-2 text-muted" style="text-align: center;">Toque: </h6>
+            <a class="nav-link active" aria-current="page" href="../pontos/oxossi/caboclo_vai_vai.html" style="text-align: center;">Ponto Completo</a>
+            <!--<a href="#" class="card-link" style="text-align: center;">Outro link</a>-->
+          </div>
+        </div>
+    </div>
+    <!--Na linha anterior termina a coluna 3-->
+</div>
+
+    <div class="text-center">
+        <button id="button-top" type="button" class="btn btn-outline-dark">Voltar ao topo!</button>
+    </div>
+
+    <div>
+        <footer style="text-align: center">
+            <b> Rua Imperial, 212 - Vila Buenos Aires, São Paulo - SP, 03737-010 </b>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../../js/index.js"></script>
+
+</body>
+</html>

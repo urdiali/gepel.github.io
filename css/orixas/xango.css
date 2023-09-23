@@ -1,0 +1,12 @@
+body, html {
+    height: 100% !important;
+    margin: 80 !important;
+}
+
+.bgxango {
+    background-image: url("../../images/orixas/xango.jpeg") !important;
+    background-repeat: no-repeat !important;
+    background-size: 30% !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
