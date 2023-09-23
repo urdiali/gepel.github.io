@@ -1,0 +1,12 @@
+body, html {
+    height: 100% !important;
+    margin: 80 !important;
+}
+
+.bgmarinheiro {
+    background-image: url("../../images/orixas/marinheiro.jpeg") !important;
+    background-repeat: no-repeat !important;
+    background-size: 45% !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}

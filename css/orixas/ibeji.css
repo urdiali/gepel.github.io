@@ -1,0 +1,12 @@
+body, html {
+    height: 100% !important;
+    margin: 80 !important;
+}
+
+.bgibeji {
+    background-image: url("../../images/orixas/ibeji.jpeg") !important;
+    background-repeat: no-repeat !important;
+    background-size: 45% !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
